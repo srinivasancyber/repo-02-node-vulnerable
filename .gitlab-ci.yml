@@ -1,0 +1,12 @@
+stages: [build, security]
+build:
+  stage: build
+  image: node:14
+  script:
+    - npm install
+    - echo "Demo build complete"
+security:
+  stage: security
+  script:
+    - echo "Insert scanner jobs for SAST/SCA/secrets/IaC"
+  allow_failure: true

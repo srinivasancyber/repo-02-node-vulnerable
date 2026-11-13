@@ -1,0 +1,12 @@
+{
+  "name": "sdlc-poc-node-vulnerable",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Intentionally vulnerable SDLC scanner test fixture",
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.11",
+    "minimist": "1.2.0",
+    "mysql": "2.16.0"
+  }
+}

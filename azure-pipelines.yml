@@ -1,0 +1,8 @@
+trigger: [main]
+pool:
+  vmImage: ubuntu-latest
+steps:
+  - script: npm install
+    displayName: Install demo dependencies
+  - script: echo "Insert scanner tasks here"
+    displayName: Security scan placeholder
